@@ -1,0 +1,194 @@
+.card1{
+    border: 2px solid rgb(234, 234, 234);
+    border-radius: 20px;
+    width: 500px;
+    padding:15px;
+    font-family:'Segoe UI' ;
+    font-size: 2ch;
+}
+
+
+.relative{
+    position: relative;
+}
+.relative-img{
+    width:100%;
+    border-radius: 20px;
+}
+
+
+.para{
+    color:gray;
+    font-family:'Segoe UI';
+    font-size: x-large;
+}
+
+.card1-below{
+    border-top:  2px solid rgb(234, 234, 234);
+    display:flex;
+    align-items: center;
+    column-gap: 5px;
+    padding:0px 2px 0px 2px;
+}
+
+.para1{
+    margin-left: 18px;
+    color:gray;
+    font-size: 0.5cm;
+}
+
+.promoted{
+    position: absolute;
+    color:white;
+    width:90px;
+    text-align: center;
+    background-color: rgba(109, 105, 105, 0.4);
+    padding:0.5px;
+    border-radius: 5px;
+    top: 0px;
+    margin-left: 10px;
+}
+
+.down-tag{
+    position:absolute;
+    bottom:0px;
+    background-color: blue;
+    color:white ;
+    text-align: center;
+    width:160px;
+    padding:2.5px;
+    font-family:'Arial Narrow';
+}
+
+.min{
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin: 15px;
+    border: 20px;
+    border-radius: 2.5px;
+    background-color: aliceblue;
+    padding:1px;
+    font-size: small;
+    width: 45px;
+    text-align: center;
+    color: black;
+    font-family:Tahoma;
+}
+
+
+
+.card2{
+    width:750px;
+    height: 450px;
+    background-image:url(https://source.unsplash.com/1600x900/?nature) ;
+    border-radius:20px;
+    background-size: cover;
+    margin: 40px auto;
+}
+
+.card2-content{
+    padding:180px 0.5px;
+    text-align: center;
+    color: aliceblue;
+    font-family:Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    border-radius: 30px;
+    padding:18px;
+    width:200px;
+    border: none;
+    font-size: larger;
+}
+
+
+.card3{
+    width:1500px;
+    height: 350px;
+    background-image:url(https://source.unsplash.com/1600x900/?food) ;
+    background-size: cover;
+    display: flex;
+}
+
+.card3-content{
+    padding:80px 420px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.card3-head{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.card3-para{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(255, 253, 253);
+}
+
+.card3-box{
+    width: 700px;
+    height:50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+.card3-box-content{
+    display: flex;
+}
+.card3img{
+    padding:5px;
+    width: 40px;
+}
+
+select{
+    border: none;
+    width:250px;
+}
+
+.card3img2{
+    padding:5px;
+    width: 40px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card4{
+    border:2px solid rgb(234, 234, 234);
+    width:400px;
+    height: 600px;
+    border-radius: 20px;
+    position:relative;
+}
+
+
+.card4img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+    height:150px;
+   
+}
+
+.card4img2{
+    width: 110px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+    bottom:400px;
+    left:139px;
+    border: 5px solid white
+}
+
+.card4-content2{
+    padding:90px;
+    text-align: center;
+}
